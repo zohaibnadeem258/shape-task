@@ -1,0 +1,19 @@
+.balance-option {
+  width: 75%;
+  background: #d4d1d7 !important;
+  color: #725166 !important;
+  justify-content: start !important;
+  gap: 20px;
+  padding: 12px 16px !important;
+  margin-bottom: 8px !important;
+  margin-left: 40px !important;
+  .letter {
+      background: #725166;
+      color: #d4d1d7;
+      width: 20px;
+      border-radius: 4px;
+  }
+  .selected {
+    background: #fff !important;
+  }
+}

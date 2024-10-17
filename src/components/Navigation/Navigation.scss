@@ -1,0 +1,23 @@
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  .next-button {
+      margin-left: auto;
+      margin-right: 10px;
+      border-radius: 20px;
+      padding: 8px 40px;
+      background: #4e3c4c;
+  }
+  .back-button {
+    border-radius: 20px;
+    padding: 8px 40px;
+    background: #4e3c4c;
+    color: #fff;
+    border: none;
+  }
+  .text {
+      color: #fff;
+      font-size: 18px;
+  }
+}

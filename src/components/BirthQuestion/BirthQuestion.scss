@@ -1,0 +1,18 @@
+.input-container {
+  display: flex;
+  align-items: center;
+  margin-top: 8px;
+  .input {
+    background: rgb(146 125 142);
+    border-radius: 20px;
+    color: #fff !important;
+    .MuiOutlinedInput-notchedOutline {
+      border: none;
+    }
+  }
+  .error {
+    font-size: 14px;
+    color: red;
+    margin-bottom: 0;
+  }
+}
